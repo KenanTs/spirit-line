@@ -1,0 +1,104 @@
+
+.info-page {
+    position: absolute;
+    top: 4%;
+    left: 32%;
+    height: 660px;
+    width: 650px;
+    border: 1px dashed #00FFFF;
+    padding: 39px;
+    animation-name: info-animate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes info-animate {
+    0% {
+        box-shadow: 1px 1px 15px #00FFFF;
+    }
+    25% {
+        box-shadow: 1px 1px 20px #00FFFF;
+    }
+    50% {
+        box-shadow: 1px 1px 15px #00FFFF;
+    }
+    100% {
+        box-shadow: 1px 1px 20px #00FFFF;
+    }
+}
+
+.info-page h2 {
+    color: #00FFFF;
+}
+
+.info-page p {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    color: #008b8b;
+}
+
+
+
+.style-typename {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px dashed #000;
+    border-radius: 50%;
+    border-top: 3px dashed #00FFFF;
+    border-left: 3px dashed #00FFFF;
+    box-shadow: 2px 2px 10px #00FFFF;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.btn-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    top: 50rem;
+    left: 42%;    
+}
+
+.btn-rotate {
+    height: 50px;
+    width: 150px;
+    border: 2px solid #00FFFF;
+    background-color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #00FFFF;
+    color: #00FFFF;
+    margin-right: 50px;
+}
+.btn-rotate:hover {
+    background-color: #00FFFF;
+    color: #000;
+}
+
+
+.header-words {
+    color: #00FFFF;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-decoration: overline underline;
+}

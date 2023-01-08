@@ -1,0 +1,144 @@
+
+.header-remain {
+    color: #696969;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+
+.cd-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*color: #12FF46;*/
+    font-size: 80px;
+    font-weight: normal;
+    letter-spacing: 6px;
+    margin-top: 5em;
+    /*text-shadow:1px 1px 10px #12FF46 ;*/
+    text-shadow: 2px 2px 5px #000, 
+    2px 2px 5px #1A2223;
+    background: -webkit-linear-gradient(#12ff46, #12FF46);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sub-paragraph {
+    color: #696969;
+    position: absolute;
+    top: 52%;
+    left: 33%;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.quote-life {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    letter-spacing: 6px;
+    font-weight: 100;
+}
+
+.quote-a {
+    color: #333;
+    position: absolute;
+    top: 130px;
+    left: 120px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.quote-a:hover {
+    color: gray; 
+}
+
+.quote-b {
+    color: #333;
+    position: absolute;
+    top: 400px;
+    left: 170px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.quote-b:hover {
+    color: gray; 
+}
+
+.quote-c {
+    color: #333;
+    position: absolute;
+    top: 130px;
+    right: 120px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.quote-c:hover {
+    color: gray; 
+}
+
+.quote-d {
+    color: #333;
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.quote-d:hover {
+    color: gray; 
+}
+
+.quote-e {
+    color: #333;
+    position: absolute;
+    top: 750px;
+    right: 300px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.quote-e:hover {
+    color: gray;
+}
+
+.quote-f {
+    color: #333;
+    position: absolute;
+    top: 720px;
+    left: 300px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.quote-f:hover {
+    color: gray;
+}
+
+.quote-g {
+    color: #333;
+    position: absolute;
+    top: 750px;
+    left: 40%;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.quote-g:hover {
+    color: gray;
+}
